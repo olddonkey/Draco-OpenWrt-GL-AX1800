@@ -7,7 +7,7 @@ image: bin/targets/ipq807x/ipq60xx/openwrt-ipq807x-glinet_axt1800-squashfs-sysup
 feeds:
   - name: ipq807x
     path: ../../feeds/ipq807x
-  - name: gl_feeds_common
+  - name: gl_feed_common
     uri: https://github.com/gl-inet/gl-feeds.git
     branch: common
   - name: luci
@@ -24,7 +24,7 @@ feeds:
   - name: small_package
     uri: https://github.com/kenzok8/small-package.git
     branch: main
-    revision: dea54c1ecd35f066182123fa077d29c0c2fea6c3
+    revision: 737d460c0c2ba6abe8c66afeb3fca75fa2210e82
 include:
   - wifi-ax
 packages:
